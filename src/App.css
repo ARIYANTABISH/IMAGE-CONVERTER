@@ -1,0 +1,144 @@
+.main {
+  display: flex;
+  background-color: rgb(196, 196, 196);
+  margin-top: 30px;
+}
+.to {
+  font-size: 50px;
+  color: rgb(140, 140, 255);
+}
+
+.PNG {
+  color: rgb(255, 166, 166);
+  font-size: 80px;
+}
+
+.JPG {
+  font-size: 80px;
+  color: rgb(159, 82, 82);
+}
+
+.dropD {
+   /* margin-left: 50%; */
+    margin-top: 35px;
+     margin: auto;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 300;
+}
+
+.detail {
+  padding-top: 80px;
+  font-size: 30px;
+}
+.detail2 {
+  padding-top: 30px;
+}
+
+.paragraph1 {
+  display: flex;
+  font-size: large;
+}
+.paragraph2 {
+  font-size: large;
+  display: flex;
+}
+
+.p1 {
+  padding-left: 5%;
+}
+
+.App {
+  max-width: 950px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.App h1 {
+  font-size: 3rem;
+  margin: 4rem 0 0 0;
+}
+
+.App p {
+  font-size: 1.5rem;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper label {
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #6415ff;
+}
+
+.input-wrapper input[type="file"] {
+  position: absolute;
+  top: 5px;
+  left: 13px;
+  height: 100%;
+  cursor: pointer;
+  z-index: -1;
+}
+
+.result {
+  margin-top: 4rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: #6415ff;
+}
+
+.result .box-image {
+  height: 100%;
+  padding: 1rem;
+}
+
+.result .box-p {
+  padding: 1rem;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+.result img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.result p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (min-width: 1000px) {
+  .result {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.navbar {
+  border-radius: 20px;
+  margin: auto;
+  margin-left: 5px;
+}
+
+#file{
+   padding: 30px;
+}
+
+.box {
+  width: 60%;
+  background-color:rgb(210, 210, 247);
+  padding: 8%;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin: auto;
+}
